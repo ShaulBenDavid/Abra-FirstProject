@@ -1,3 +1,3 @@
 # Abra-FirstProject
 My first css project in Abra Frontend course
-https://github.com/ShaulBenDavid/Abra-FirstProject.git
+https://shaulbendavid.github.io/Abra-FirstProject/
