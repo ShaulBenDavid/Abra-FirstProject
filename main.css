@@ -1,0 +1,242 @@
+body{
+    overflow: scroll;
+}
+#container{
+    background-color: #fcfaf7;
+}
+/* header */
+.header{
+    background-color: #0e1649;
+    width: 100%;
+    height: 100px;
+}
+
+.header #logo{
+    padding-top: 20px;
+    padding-left: 64px;
+}
+
+/* articale */
+.article {    
+    padding-left: 64px;
+    margin-top: 32px;
+}
+
+/* React title */
+.article .react-title {
+    font-family: Times New Roman;
+    font-size: 72px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 1.44px;
+    text-align: left;
+    color: #0e1649;
+}
+
+.subt-react {
+    font-family: Courier New;
+    font-size: 26px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -1.56px;
+    text-align: left;
+    color: #1c1c1c;
+    margin-top: 16px;
+}
+ 
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
+}
+.button-1 {
+    width: 205px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #ff9f00;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-1 .get-started {
+    flex-grow: 0;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    padding: 16px 32.5px;
+}
+
+.button-2 {
+    width: 205px;
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: solid 2px #ff9f00;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-2 .tutorial{
+    padding: 16px 52px;
+    flex-grow: 0;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ff9f00;
+}
+
+/* buttons effects */
+.button-1:hover{
+    background-color: #f08e0e;
+}
+.button-2:hover{
+    border-color: #f08e0e;
+}
+
+/* First section */
+.fist-p{
+    margin-top: 72px;
+}
+
+.h2-title {
+    flex-grow: 0;
+    margin: 0 285px 16px 0;
+    font-family: Courier New;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    text-align: left;
+    color: rgba(14, 22, 73, 0.8);
+}
+
+.p-style{
+    margin-top: 16px;
+    width: 648px;
+    flex-grow: 0;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+/* Mark style */
+.mark{
+    background-color: #cfd0d6;
+    text-decoration: underline;
+    color: #0e1649;
+    padding: 3px;
+}
+
+.u-mark{
+    color: #ff7748;
+    text-decoration: underline;
+}
+
+
+
+.break-line {
+    width: 648px;
+    height: 1px;
+    background-color: #e1e1e1;
+    margin: 40px 0;
+}
+/* Small title design */
+.h3-title{
+    flex-grow: 0;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    text-align: left;
+    color: #1c1c1c;
+}
+/* paragraph */ 
+.style-p {
+    width: 648px;
+}
+/* Images */
+.image-1{
+    width: 648px;
+    height: 414px;
+    margin-top: 40px;
+    object-fit: contain;
+}
+
+.image-2{
+    width: 648px;
+    height: 287px;
+    margin-top: 40px;
+    object-fit: contain;
+}
+
+/* list style */
+.list-p {
+    margin: 16px 0 0;
+    padding: 0;
+    list-style-position: inside;
+}
+
+ul li::marker {
+    color: black;
+}
+
+.list-p li{
+    flex-grow: 0;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1c1c1c;
+}
+
+.space{
+    margin-top: 40px;
+    padding-bottom: 58px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff7748;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exercise 2</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css-reset.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <div id="container">
+        <!-- Header -->
+        <header class="header">
+            <img id="logo" src="assets/logo.png">
+        </header>
+        <!-- Article -->
+        <article class="article">
+            <!-- Title -->
+            <h1 class="react-title">React</h1> 
+            <p class="subt-react">A JavaScript library for building user interfaces</p>
+            <!-- Buttons -->
+            <div class="buttons">
+                <span class="button-1"><span class="get-started">GET STARTED</span></span>
+                <span class="button-2"><span class="tutorial">TUTORIAL</span></span>
+            </div>    
+            <!-- First Paragraph -->
+            <div class="fist-p">
+                <h2 class="h2-title">Learn Once, Write Anywhere</h2>
+                <p class="p-style">We don’t make assumptions about the rest of your technology stack,
+                     so you can develop new features in React without rewriting existing code.<br>
+                    React can render on the server using Node and power mobile apps using <span class="mark">React Native.</span></p>
+            </div>
+            <!-- Line breaker -->
+            <hr class="break-line">
+            <!-- Second Paragraph  -->
+            <div class="style-p">
+                <h3 class="h3-title">A Simple Component</h3>
+                <p class="p-style">React components implement a <strong>render()</strong> method that takes input data and 
+                    returns what to display. This example uses an XML-like syntax called JSX. Input data
+                    that is passed into the component can be accessed by <strong>render()</strong> via <strong>this.props.</strong><br><br>
+                    JSX is optional and not required to use React. Try the <span class="u-mark">Babel REPL</span> to see the raw 
+                    JavaScript code produced by the JSX compilation step.</p>
+                    <img src="/assets/code1.png" class="image-1">
+                </div>
+                <!-- Line breaker -->
+                <hr class="break-line">
+                <!-- Thirs Paragraph  -->
+                <div class="style-p">
+                    <h3 class="h3-title">Basic List Component</h3>
+                    <ol class="list-p">
+                        <li>Usually you would render lists inside a component.</li>
+                        <li>We can refactor the previous example into a component 
+                            that accepts an array of numbers and outputs a list of elements.</li>
+                        <li>When you run this code, you’ll be given a warning that a key should be 
+                            provided for list items.</li>
+                            <ul>
+                                <li>A “key” is a special string attribute you need to include when creating
+                                     lists of elements.</li>
+                                <li>We’ll discuss why it’s important in the next section.</li>
+                                <li>Let’s assign a <strong>key</strong> to our list items inside <strong>numbers.map()</strong> 
+                                    and fix the missing key issue.</li>
+                            </ul>
+                    </ol>
+
+                        <img src="/assets/image p3.png" class="image-2">
+                        <div class="u-mark space">Try it on Abra-Labs</div>
+                    </div>   
+
+        </article>
+    </div>
+</body>
+</html>
